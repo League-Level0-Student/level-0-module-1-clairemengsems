@@ -1,0 +1,95 @@
+1. Fill in the blanks
+______String______________ favoriteHobby = "programming";
+________int____________ numberOfToes = 10;
+_________int___________ degreesInARightAngle = 90;
+
+_________int___________ myAge = ________11____________;
+String _______Programmming Type_____________ = "Java";
+double _________Pi___________ = 3.14159;
+
+
+
+2. Initialize these variables...
+    String whatIWantToBeWhenIGrowUp = "video game designer";
+    int facebookFriends = 17;
+    String myBirthday = "February 12, 2008";
+    int sidesInATriangle = 3;
+    
+    
+    
+3. Declare and initialize variables for...
+    ­ what you got for your birthday  
+    String birthdayGift = "mouse";
+    ­ the last meal you ate
+    String lastMeal = "Bosco sticks and sauce";
+    ­ what time you go to bed
+    String bedTime = "9:30";
+    
+    
+    
+    
+    
+    
+1. Complete the for loop below so that it prints out the numbers 1­10.
+for( int i = 1 ;  i < 10           ;     i++        ){
+print(i);
+}
+2. Complete the for loop below so that it counts down and prints out 75 to 50.
+for(  int j =  75    ;    i > 50         ;     i--        ){
+print(i);
+}
+3. Describe briefly what each part of the for loop does: 
+for( a ; b ; c ){               } 
+a) the a part creates a int variable
+b) the b part makes it so when the variable is greater or lesser than a number, the loop stops.
+c) the c part makes the variable greater or lesser by one every time the loop runs.
+
+
+
+1. Declare a string variable and initialize it to “yes”. If the string is equal to yes, print “happy” otherwise print
+“sad”. Then print "Wednesday".
+What happens if you set the string variable to "no"? 
+
+String mood = "yes"
+
+if( mood == "yes" ){
+print("happy");
+}else{
+print("sad");
+}
+
+if you set the string variable to no, it will print "sad" instead of "happy".
+
+2. Declare an int variable to hold your age and initialize its value. If you are under 20, print “It’s so great being
+young”, otherwise print “Don’t you wish you were young!”
+
+int age = 11
+
+if( age > 20 ){
+print("Its so great to be young!");
+}else{
+print("Don't you wish you were young!");
+}
+
+3. Make an input pop­up to ask the user which animal they like. If the user types “dog”, print “Dogs go woof”,
+otherwise if they type “cat”, print “Cats go meow” ....and so on with other animals. If you do not have code for
+the animal they type, print “I don’t know that animal.”
+
+String animal = JOptionPane.showInputDialog("What's your favorite animal?");
+
+if( animal.equals ("dog")){
+JOptionPane.showMessageDialog(null, "Dogs go woof");
+}
+if(animal.equals ("cat")){
+JOptionPane.showMessageDialog(null, "Cats go meow");
+}
+if(animal.equals ("mouse")){
+JOptionPane.showMessageDialog(null, "Mice go squeak");
+}if( animal.equal ("horse"))
+JOptionPane.showMessageDialog(null, "Horses go nieghhh");
+	
+}else{
+JOptionPane.showMessageDialog(null, " I don't know that animal);
+}		
+	
+	
